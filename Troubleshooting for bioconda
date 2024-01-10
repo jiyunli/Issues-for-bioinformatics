@@ -1,0 +1,12 @@
+
+###Q1：Resolving Installation Errors: Conda Channel Configuration Method
+
+##Error Encountered:  Without the appropriate version available during the Conda software installation, you can try resolving it this way
+
+##Solution: 
+For anyone struggling with installations, I recommend running 
+        conda config --set channel_priority flexible 
+and then back to 
+        conda config --set channel_priority strict 
+upon installation.
+### Source: github
