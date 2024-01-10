@@ -1,0 +1,7 @@
+Here, various issues have been collected along with their respective solutions.
+
+###snippy software
+
+#Q1：Error Encountered: 'vcfuniq: error while loading shared libraries: libtabixpp.so.0: cannot open shared object file: No such file or directory'
+#A1: Solution: To resolve this issue, use the command 'mamba install -c bioconda tabixpp==1.1.0'
+## Source: https://github.com/tseemann/snippy/issues/570#issue-1954166875
